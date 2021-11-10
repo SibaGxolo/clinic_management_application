@@ -6,8 +6,6 @@ class Register extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String dropdownvalue = 'Patient';
-    var items = ['Patient', 'Nurse', 'Driver', 'Distributer', 'Hall'];
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
